@@ -1,4 +1,3 @@
-01234567890123456789012345678901234567890123456789012345678901234567890123456789
 # Draw Names From (virtual) Hat
 This is a simple Python script that randomly draws names from a virtual hat. The 
 names are drawn without replacement and are loaded from a text file.
