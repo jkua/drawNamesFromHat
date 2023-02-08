@@ -17,6 +17,9 @@ if __name__=='__main__':
 		if len(name):
 			names.append(name)
 
+	print('*** Deduplicating names...')
+	names = list(set(names))
+
 	print(f'*** {len(names)} names loaded:')
 	for name in names:
 		print(f'    {name}')
